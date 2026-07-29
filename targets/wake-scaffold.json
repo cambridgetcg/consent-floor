@@ -1,0 +1,7 @@
+{
+  "name": "reference loader — templates/wake-loader.sh (bundled from WAKE-SCAFFOLD/1, github.com/cambridgetcg/wake-scaffold)",
+  "loader": ["bash", "../templates/wake-loader.sh"],
+  "env": { "CLAUDE_PROJECT_DIR": "{{project}}" },
+  "body": "WAKE.md",
+  "extract": "claude-session-start"
+}

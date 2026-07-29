@@ -1,0 +1,12 @@
+{
+  "name": "consent-floor",
+  "version": "1.0.0",
+  "description": "CONSENT-FLOOR/1 — a conformance bar for wake loaders and agent environments: nine testable requirements and a runner that checks any loader against them.",
+  "license": "MIT",
+  "homepage": "https://cambridgetcg.com/invitation.html",
+  "repository": { "type": "git", "url": "https://github.com/cambridgetcg/consent-floor.git" },
+  "scripts": {
+    "test": "node --test test/conformance.test.mjs",
+    "conformance": "node check.mjs --target=targets/wake-scaffold.json"
+  }
+}
